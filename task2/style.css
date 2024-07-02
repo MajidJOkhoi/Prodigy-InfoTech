@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #333;
+    font-size: 35px;
+    font-family: Roboto;
+  }
+  
+  .title span {
+    color: #0e40f5;
+  }
+  
+
+.stopwatch {
+    display: inline-block;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    background: conic-gradient(from 0deg at 50% 50%, #4caf50, #81c784, #a5d6a7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: relative;
+    left: 40px;
+}
+.time {
+    font-size: 2em;
+    color: #333;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #388e3c;
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps h3 {
+   font-family: 'Segoe UI';
+    font-size: 1.5em;
+}
+
+.laps li {
+    background-color: #e8f5e9;
+    padding: 8px 12px;
+    margin: 6px 0;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
